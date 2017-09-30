@@ -1,6 +1,21 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+title: Home
+heading: Table of contents
 ---
+
+These pages are made to provide help and information on all related matters for
+our distributors, service providers and other affiliates.
+
+Please choose from the links below. If you have any suggestions on what would be
+good to include here, let us know at [help@tolon.com](mailto:help@tolon.com).
+
+### Support contacts
+
+- [Sales support](/contacts/sales)
+- [Technical support](/contacts/tech)
+- [Management](/contacts/management)
+
+### Corporate identity guide
+
+- [Logo usage guidelines](/identity/logo)
