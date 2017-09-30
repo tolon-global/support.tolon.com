@@ -1,0 +1,148 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300&subset=latin,latin-ext);
+
+@font-face {
+	font-family: "Futura Std";
+	font-weight: 300;
+	src: url("/fonts/FuturaStd-Light.ttf") format(truetype);
+}
+
+@font-face {
+	font-family: "Futura Std";
+	font-weight: 400;
+	src: url("/fonts/FuturaStd-Book.ttf") format(truetype);
+}
+
+@font-face {
+	font-family: "Futura Std";
+	font-weight: 500;
+	src: url("/fonts/FuturaStd-Medium.ttf") format(truetype);
+}
+
+* {
+	font: inherit;
+	color:inherit;
+	margin:0;
+	padding:0;
+	text-decoration: inherit;
+}
+
+ul, ol { list-style-type: none; }
+
+html {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	background-color: #eee;
+	height: 100%;
+}
+
+html > body {
+	color: #383F46;
+	max-width: 65em;
+	min-width: 10em;
+	background-color: #fff;
+	margin: 0 auto;
+	min-height: 100%;
+	padding: 1em;
+	box-shadow: 0 0 1em #999;
+}
+
+header {
+	font-family: "Futura Std";
+	background-color: #383F46;
+	background-image: url(/tolon-header.svg);
+	background-repeat: no-repeat;
+	background-size: auto 3em;
+	background-position: right;
+	color: #fff;
+	margin: -1em -1em 1em;
+	padding: 1em;
+	min-height: 3em;
+}
+
+footer {
+	background-color: #383F46;
+	color: #fff;
+	font-size: .7rem;
+	line-height: 1rem;
+	margin: 1rem -1rem -1rem;
+	padding: 1rem;
+}
+
+
+@media (max-width: 450px) {
+	header {
+		background-size: auto 2em;
+		background-position: right 1em;
+	}
+}
+
+@media (max-width: 320px) {
+	header { background-image: none; }
+}
+
+em { font-weight: bolder; }
+
+h1 {
+	font-size: 2em;
+}
+
+sup {
+	font-size: 60%;
+	font-weight: bolder;
+}
+
+main > img {
+	display: block;
+	margin: 2em auto;
+	width: 80%;
+}
+
+@media (max-width: 500px) {
+	main > img { width: 100%; }
+}
+
+main > p {
+	counter-increment: p;
+}
+
+@media (min-width: 50em) {
+	main > p { float: left; width: 30%; clear: left; margin-bottom: 1em; }
+	main > h3 { clear: left; }
+	main > img { width: 60%; margin: 2em; margin-left: auto; }
+	main:after { content: " "; clear: both; display: block; }
+	.narrow { display: none; }
+}
+@media (max-width: 50em) { .wide { display: none; }}
+
+main > p:before {
+	content: counter(p);
+	display: block;
+	float: left;
+	width: 1em;
+	font: 500 normal 6em "Futura Std";
+	color: rgba(0,0,0,0.15);
+	position: absolute;
+}
+
+main > h3 {
+	background-color: #383F46;
+	color: white;
+	font: 300 1em/2 "Futura Std";
+	padding: 0 1em;
+	margin: 1em -1em;
+}
+
+main > ul code,
+main > p code {
+	font-weight: bolder;
+	background-color: rgba(56, 63, 70, 0.15);
+	padding: 0 1ex;
+	white-space: pre;
+}
+
+a { font-weight: bolder; }
+a:hover { color: #FD764D; }
+
+main ol {
+
+}
