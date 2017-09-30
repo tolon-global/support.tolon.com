@@ -17,7 +17,7 @@ title: Tolon Support
 email: help@tolon.com
 description: >- # this means to ignore newlines until "baseurl:"
   Support information for Tolon Global
-baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: "/hoblek" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: merttorun
 github_username:  edgerunner
