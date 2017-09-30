@@ -41,6 +41,7 @@ layout: home
 
         </li>
     </ul>
-    <img src="../photos/{{ email }}.jpg" alt="">
+    {% capture photo_url %}/contacts/photos/{{ email }}.jpg{% endcapture %}
+    <img src="{{ photo_url | relative_url }}" alt="">
 </section>
 {% endfor %}

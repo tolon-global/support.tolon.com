@@ -12,10 +12,10 @@ good to include here, let us know at [help@tolon.com](mailto:help@tolon.com).
 
 ### Support contacts
 
-- [Sales support](/contacts/sales)
-- [Technical support](/contacts/tech)
-- [Management](/contacts/management)
+- [Sales support](contacts/sales)
+- [Technical support](contacts/tech)
+- [Management](contacts/management)
 
 ### Corporate identity guide
 
-- [Logo usage guidelines](/identity/logo)
+- [Logo usage guidelines](identity/logo)
