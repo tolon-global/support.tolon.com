@@ -29,7 +29,7 @@ html > body {
 
 header {
 	background-color: #383F46;
-	background-image: url(/tolon-header.svg);
+	background-image: url(tolon-header.svg);
 	background-repeat: no-repeat;
 	background-size: auto 3em;
 	background-position: right;
