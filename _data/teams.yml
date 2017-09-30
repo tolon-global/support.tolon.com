@@ -1,0 +1,12 @@
+management:
+    omer: "General Manager"
+    can: "Chief Technical Officer"
+    bhasdemir: "Chief Financial Officer"
+
+sales:
+    omer: "Sales Specialist"
+    aozkan: "Sales Specialist"
+    efe: "Sales Specialist"
+
+tech:
+    can: "Product Specialist"

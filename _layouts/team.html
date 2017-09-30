@@ -1,0 +1,46 @@
+---
+layout: home
+---
+<section class="content">
+    {{ content }}
+</section>
+
+
+{% for member in site.data.teams[page.team] %}
+{% assign email = member[0] %}
+{% assign title = member[1] %}
+{% assign contact = site.data.contacts[email] %}
+<section class="member">
+    <h1>{{ contact.name }}</h1>
+    <h2>{{ title }}</h2>
+    <ul>
+        <li><a href="mailto:{{email}}@tolon.com">{{email}}@tolon.com</a></li>
+        {% if contact.mobile %}
+        <li><a href="tel:{{contact.mobile}}">{{contact.mobile}}</a></li>
+        {% endif %}
+        {% if contact.ext %}
+        <li>
+            <a href="tel:{{site.data.contacts.defaults.phone}};ext={{contact.ext}}">
+                {{site.data.contacts.defaults.phone}}
+                ext: {{ contact.ext }}
+            </a>
+        </li>
+        {% endif %}
+        <li>
+            {% if contact.languages %}
+            {% assign languages = contact.languages %}
+            {% else %}
+            {% assign languages = site.data.contacts.defaults.languages %}
+            {% endif %}
+            {% assign language_names = '' | split: "" %}
+            {%- for lang in languages -%}
+                {% assign language_names = language_names | push: site.data.languages[lang] %}
+            {%- endfor -%}
+
+            {{ language_names | array_to_sentence_string }}
+
+        </li>
+    </ul>
+    <img src="../photos/{{ email }}.jpg" alt="">
+</section>
+{% endfor %}

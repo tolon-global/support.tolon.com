@@ -1,0 +1,38 @@
+defaults:
+    phone: +90-232-376-7084
+    languages:
+        - tr
+        - en
+
+omer:
+    name: Ömer Tolon
+    mobile: +90-532-323-8383
+    ext: 173
+
+can:
+    name: Can Dârâ Tolon
+    mobile: +90-532-227-6383
+    ext: 126
+
+bhasdemir:
+    name: Bülent Hasdemir
+    mobile: +90-532-287-9921
+    ext: 137
+
+aozkan:
+    name: Ali Rıza Özkan
+    mobile: +90-533-687-4109
+    ext: 127
+
+scuhadaroglu:
+    name: Serkan Çuhadaroğlu
+    mobile: +90-539-468-0911
+    ext: 147
+
+efe:
+    name: Efe Tolon
+    mobile: +90-532-323-9898
+    languages:
+        - tr
+        - en
+        - fr
