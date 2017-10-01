@@ -36,3 +36,28 @@ efe:
         - tr
         - en
         - fr
+
+tdemirel:
+    name: Tuğçe Demirel
+    mobile: +90-534-494-7030
+    ext: 147
+
+saksit:
+    name: Seda Akşit
+    mobile: +90-539-309-1506
+    ext: 147
+
+mkaraborklu:
+    name: Merve Karabörklü
+    mobile: +90-532-644-4406
+    ext: 123
+
+dceyhanlilar:
+    name: Deniz Ceyhanlılar
+    mobile: +90-538-788-9287
+
+gtarim:
+    name: Gürkan Tarım
+    mobile: +90-549-791-1291
+    ext: 112
+    
