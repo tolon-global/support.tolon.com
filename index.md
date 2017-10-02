@@ -8,7 +8,8 @@ These pages are made to provide help and information on all related matters for
 our distributors, service providers and other affiliates.
 
 Please choose from the links below. If you have any suggestions on what would be
-good to include here, let us know at [help@tolon.com](mailto:help@tolon.com).
+good to include here, let us know at [help@tolon.com](mailto:help@tolon.com) or use
+the chat widget and say hi.
 
 ### Support contacts
 
