@@ -79,3 +79,14 @@ gtarim:
     title: Service Specialist
     mobile: +90-549-791-1291
     ext: 112
+
+carine.derez:
+    name: Carine Derez
+    title: Director, Tolon Europe
+    mobile: +32-475-97-6311
+    phone: +32-9-333-8334
+    languages:
+        - nl
+        - en
+        - fr
+        - de
