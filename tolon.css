@@ -83,7 +83,7 @@ main > img {
 }
 
 @media (min-width: 50em) {
-	main > p { float: left; width: 30%; clear: left; margin-bottom: 1em; }
+	main > p { float: left; width: 50%; margin-bottom: 1em; }
 	main > h3 { clear: left; }
 	main > img { width: 60%; margin: 2em; margin-left: auto; }
 	main:after { content: " "; clear: both; display: block; }
