@@ -6,31 +6,37 @@ defaults:
 
 omer:
     name: Ömer Tolon
+    title: General Manager
     mobile: +90-532-323-8383
     ext: 173
 
 can:
     name: Can Dârâ Tolon
+    title: Chief Technical Officer
     mobile: +90-532-227-6383
     ext: 126
 
 bhasdemir:
     name: Bülent Hasdemir
+    title: Vice President
     mobile: +90-532-287-9921
     ext: 137
 
 aozkan:
     name: Ali Rıza Özkan
+    title: Sales Specialist
     mobile: +90-533-687-4109
     ext: 127
 
 scuhadaroglu:
     name: Serkan Çuhadaroğlu
+    title: After-sales Specialist
     mobile: +90-539-468-0911
     ext: 147
 
 efe:
     name: Efe Tolon
+    title: Sales Specialist
     mobile: +90-532-323-9898
     languages:
         - tr
@@ -39,11 +45,13 @@ efe:
 
 tdemirel:
     name: Tuğçe Demirel
+    title: Operations Specialist
     mobile: +90-534-494-7030
     ext: 147
 
 saksit:
     name: Seda Akşit
+    title: Operations Specialist
     mobile: +90-539-309-1506
     ext: 147
     languages:
@@ -53,11 +61,13 @@ saksit:
 
 mkaraborklu:
     name: Merve Karabörklü
+    title: Asssistant to the General Manager
     mobile: +90-532-644-4406
     ext: 123
 
 dceyhanlilar:
     name: Deniz Ceyhanlılar
+    title: Documentation Specialist
     mobile: +90-538-788-9287
     languages:
         - tr
@@ -66,6 +76,6 @@ dceyhanlilar:
 
 gtarim:
     name: Gürkan Tarım
+    title: Service Specialist
     mobile: +90-549-791-1291
     ext: 112
-    

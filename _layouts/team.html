@@ -6,13 +6,11 @@ layout: home
 </section>
 
 
-{% for member in site.data.teams[page.team] %}
-{% assign email = member[0] %}
-{% assign title = member[1] %}
+{% for email in site.data.teams[page.team] %}
 {% assign contact = site.data.contacts[email] %}
 <section class="member">
     <h1>{{ contact.name }}</h1>
-    <h2>{{ title }}</h2>
+    <h2>{{ contact.title }}</h2>
     <ul>
         <li><a href="mailto:{{email}}@tolon.com">{{email}}@tolon.com</a></li>
         {% if contact.mobile %}

@@ -1,20 +1,21 @@
 management:
-    omer: "General Manager"
-    can: "Chief Technical Officer"
-    bhasdemir: "Chief Financial Officer"
-    mkaraborklu: "Assistant to the General Manager"
+    - omer
+    - mkaraborklu
+    - can
+    - bhasdemir
+
 
 sales:
-    omer: "Sales Specialist"
-    aozkan: "Sales Specialist"
-    efe: "Sales Specialist"
-    scuhadaroglu: "After-sales Specialist"
-    mkaraborklu: "Operations Specialist"
-    tdemirel: "Operations Specialist"
-    saksit: "Operations Specialist"
+    - omer
+    - aozkan
+    - efe
+    - scuhadaroglu
+    - mkaraborklu
+    - tdemirel
+    - saksit
 
 tech:
-    gtarim: "Service Manager"
-    dceyhanlilar: "Documentation Manager"
-    can: "Product Specialist"
-    efe: "Product Specialist"
+    - gtarim
+    - dceyhanlilar
+    - can
+    - efe
