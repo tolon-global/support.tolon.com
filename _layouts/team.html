@@ -18,18 +18,14 @@ layout: home
         {% endif %}
         {% if contact.ext %}
         <li>
-            <a href="tel:{{site.data.contacts.defaults.phone}};ext={{contact.ext}}">
-                {{site.data.contacts.defaults.phone}}
+            <a href="tel:{{contact.phone | default: site.data.contacts.defaults.phone}};ext={{contact.ext}}">
+                {{ contact.phone | default: site.data.contacts.defaults.phone}}
                 ext: {{ contact.ext }}
             </a>
         </li>
         {% endif %}
         <li>
-            {% if contact.languages %}
-            {% assign languages = contact.languages %}
-            {% else %}
-            {% assign languages = site.data.contacts.defaults.languages %}
-            {% endif %}
+            {% assign languages = contact.languages | default: site.data.contacts.defaults.languages %}
             {% assign language_names = '' | split: "" %}
             {%- for lang in languages -%}
                 {% assign language_names = language_names | push: site.data.languages[lang] %}
