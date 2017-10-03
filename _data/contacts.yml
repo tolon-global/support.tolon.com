@@ -46,6 +46,10 @@ saksit:
     name: Seda Akşit
     mobile: +90-539-309-1506
     ext: 147
+        languages:
+        - tr
+        - en
+        - fr
 
 mkaraborklu:
     name: Merve Karabörklü
@@ -55,6 +59,10 @@ mkaraborklu:
 dceyhanlilar:
     name: Deniz Ceyhanlılar
     mobile: +90-538-788-9287
+        languages:
+        - tr
+        - en
+        - de
 
 gtarim:
     name: Gürkan Tarım
