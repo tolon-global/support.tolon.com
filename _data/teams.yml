@@ -5,13 +5,13 @@ management:
     - bhasdemir
     - carine.derez
 
-
 sales:
     - omer
-    - aozkan
-    - efe
-    - scuhadaroglu
     - mkaraborklu
+    - carine.derez
+    - efe
+    - aozkan
+    - scuhadaroglu
     - tdemirel
     - saksit
 
