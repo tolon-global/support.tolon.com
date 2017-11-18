@@ -15,7 +15,6 @@ the chat widget and say hi.
 
 - [Sales support](contacts/sales)
 - [Technical support](contacts/tech)
-- [Management](contacts/management)
 
 ### Materials
 
