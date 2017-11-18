@@ -21,6 +21,12 @@ the chat widget and say hi.
 - [The sales presentation](http://sunum.tolon.com)
 - [Manuals, Guides, Sales materials and Documents](https://drive.google.com/drive/folders/0B12Am4Ls7RiHTTRzcFh4V3lBMGM?usp=sharing)
 
+### Tolon on social media
+
+- [Facebook](https://www.facebook.com/tolonglobal/)
+- [LinkedIn](https://www.linkedin.com/company/24797514/)
+- [YouTube](https://www.youtube.com/user/tolonmakina)
+
 ### Corporate identity guide
 
 - [Logo usage guidelines](identity/logo)
